@@ -1,0 +1,39 @@
+name: receptus
+description: An app for people who wants to make a perfect dish.
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.9
+  flutter_screenutil: ^5.7.0
+  get:
+  flutter_rating_bar: ^4.0.0
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  image: assets/images/cooking_logo.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/recipe_photos/
+
+  fonts:
+    - family: RightGrotesk
+      fonts:
+        - asset: assets/fonts/RightGrotesk-CompactBlack.otf
+        - asset: assets/fonts/RightGrotesk-Medium.otf
+        - asset: assets/fonts/RightGroteskText-CompactMedium.otf
+        - asset: assets/fonts/RightGroteskText-Regular.otf
